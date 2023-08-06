@@ -1,7 +1,7 @@
 body {
     background-color: #FFE4C4;
     font-family: sans-serif;
-    display: flex !important;
+    display: flex;
 }
 
 .blog-card {
@@ -26,22 +26,21 @@ body {
 }
 
 .card-body h2 {
-        size: 0.75rem;
-        opacity: 50%;
-        text-transform: uppercase;
-    }
+    size: 0.75rem;
+    opacity: 50%;
+    text-transform: uppercase;
+}
 .card-body h1 {
-        size: 1.313rem;
-        margin-bottom: 1.5rem;
-    }
+    size: 1.313rem;
+    margin-bottom: 1.5rem;
+}
 .card-body p {
-        opacity: 60%;
-        font-size: 0.9rem;
-    }
+    opacity: 60%;
+    font-size: 0.9rem;
+}
 
 .card-footer {
-    display: flex !important;
-    flex-direction: column;
+    display: flex;    
     font-size: 0.8rem;
     align-items: center;
     justify-content: space-between;
